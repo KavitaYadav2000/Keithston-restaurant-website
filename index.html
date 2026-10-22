@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Keithston & Partners: modern Italian dining in Indore. Fresh ingredients, slow cooking, warm hospitality." />
+  <title>Keithston & Partners | Modern Italian Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar container" aria-label="Main">
+      <a class="brand" href="#home" aria-label="Keithston & Partners, home">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span class="brand-name">Keithston <i>&amp;</i> Partners</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-cta" href="#contact">Book a table</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <img class="hero-img" id="heroImg"
+      src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=2200&q=85" alt="" />
+    <div class="hero-shade"></div>
+
+    <div class="hero-inner container">
+      <p class="hero-kicker">Modern Italian dining in Indore</p>
+      <h1 class="hero-title">
+        <span class="line"><span>Italian cooking,</span></span>
+        <span class="line"><span><i>made for lingering.</i></span></span>
+      </h1>
+      <p class="hero-text">
+        Taste, ambiance and service that are worth staying for.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Reserve a table</a>
+        <a class="btn btn-ghost" href="#menu">See the menu</a>
+      </div>
+    </div>
+
+    <div class="hero-contact container">
+      <a href="tel:1234567890">123-456-7890</a>
+      <a href="mailto:hello@reallygreatsite.com">hello@reallygreatsite.com</a>
+      <span>Indore, India</span>
+    </div>
+  </section>
+
+  <main>
+    <section class="sec about" id="about">
+      <div class="container about-grid">
+        <p class="about-lead">
+          We pair fresh ingredients with creative technique, so every plate suits the
+          occasion, whether it is a quiet lunch or a long family night.
+        </p>
+        <ul class="pillars">
+          <li>
+            <h3>Fresh ingredients</h3>
+            <p>Bought from trusted local suppliers.</p>
+          </li>
+          <li>
+            <h3>Creative cooking</h3>
+            <p>Classic Italian ideas, finished with care.</p>
+          </li>
+          <li>
+            <h3>Warm hospitality</h3>
+            <p>Service that feels easy and unhurried.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="vision" id="vision">
+      <div class="vision-media wipe">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1300&q=85"
+          alt="Warmly lit restaurant dining room with set tables" loading="lazy" />
+      </div>
+      <div class="vision-copy">
+        <h2>Made for people who love food.</h2>
+        <dl class="vm">
+          <div>
+            <dt>Our vision</dt>
+            <dd>To become a top destination for food lovers.</dd>
+          </div>
+          <div>
+            <dt>Our mission</dt>
+            <dd>Serve high-quality dishes and deliver excellent customer service.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="sec menu" id="menu">
+      <div class="container">
+        <div class="menu-head">
+          <h2>Our best-selling dishes</h2>
+          <p>Simple ingredients. Thoughtful preparation. A plate worth remembering.</p>
+        </div>
+
+        <ul class="menu-list" id="menuList">
+          <li class="dish" tabindex="0"
+            data-img="https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&w=1000&q=85">
+            <h3>Premium Steak</h3>
+            <p>Rich, tender and carefully grilled.</p>
+            <span class="dish-tag">Grill</span>
+            <img class="dish-thumb"
+              src="https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&w=600&q=80"
+              alt="Grilled premium steak on a plate" loading="lazy" />
+          </li>
+          <li class="dish" tabindex="0"
+            data-img="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=85">
+            <h3>Signature Desserts</h3>
+            <p>A sweet finish to every experience.</p>
+            <span class="dish-tag">Dolci</span>
+            <img class="dish-thumb"
+              src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=600&q=80"
+              alt="Plated signature dessert" loading="lazy" />
+          </li>
+          <li class="dish" tabindex="0"
+            data-img="https://images.unsplash.com/photo-1534080564583-6be75777b70a?auto=format&fit=crop&w=1000&q=85">
+            <h3>Fresh Seafood Platter</h3>
+            <p>Fresh flavours with a refined presentation.</p>
+            <span class="dish-tag">Mare</span>
+            <img class="dish-thumb"
+              src="https://images.unsplash.com/photo-1534080564583-6be75777b70a?auto=format&fit=crop&w=600&q=80"
+              alt="Seafood platter with shellfish and lemon" loading="lazy" />
+          </li>
+          <li class="dish" tabindex="0"
+            data-img="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=1000&q=85">
+            <h3>Special Grilled Chicken</h3>
+            <p>Juicy, aromatic and freshly prepared.</p>
+            <span class="dish-tag">Griglia</span>
+            <img class="dish-thumb"
+              src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80"
+              alt="Grilled chicken with herbs" loading="lazy" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="quality">
+      <div class="quality-copy">
+        <h2>Freshness you can taste.</h2>
+        <p>We use only fresh, high-quality ingredients, sourced from trusted local suppliers.</p>
+        <ul class="rules">
+          <li><span>Taste</span><small>Every dish is tried before it leaves the kitchen.</small></li>
+          <li><span>Hygiene</span><small>A clean kitchen, every service.</small></li>
+          <li><span>Consistency</span><small>The same plate, the same care, every visit.</small></li>
+        </ul>
+      </div>
+      <div class="quality-media wipe">
+        <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=1500&q=85"
+          alt="Fresh ingredients prepared on a kitchen counter" loading="lazy" />
+      </div>
+    </section>
+
+    <section class="sec experience" id="experience">
+      <div class="container">
+        <div class="experience-head">
+          <h2>A place to dine, relax and connect.</h2>
+          <p>Comfortable, stylish interiors, warm lighting and a cozy atmosphere, made for dining and for
+            spending time with people.</p>
+        </div>
+        <div class="experience-cols">
+          <article>
+            <h3>Warm lighting</h3>
+            <p>Soft details that make every table feel inviting.</p>
+          </article>
+          <article>
+            <h3>Cozy atmosphere</h3>
+            <p>A comfortable setting for families, friends and business gatherings.</p>
+          </article>
+          <article>
+            <h3>Friendly service</h3>
+            <p>Professional staff and fast, efficient service.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <figure class="container">
+        <blockquote>“Customer satisfaction is our top priority.”</blockquote>
+        <figcaption>Friendly, professional staff and fast, efficient service.</figcaption>
+      </figure>
+    </section>
+
+    <section class="sec community">
+      <div class="container two-col">
+        <h2>Growing with our community.</h2>
+        <ul class="rows">
+          <li>Social media promotion</li>
+          <li>Special discounts and coupons</li>
+          <li>Collaboration with influencers</li>
+          <li>Loyalty programs for customers</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec growth">
+      <div class="container two-col">
+        <div>
+          <h2>Plans for expansion.</h2>
+          <p class="growth-text">Our long-term focus is to grow the dining experience while maintaining quality and
+            service.</p>
+        </div>
+        <ul class="rows rows-dark">
+          <li>Opening new branches</li>
+          <li>Introducing new menu items</li>
+          <li>Enhancing our digital ordering system</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec contact" id="contact">
+      <div class="container two-col">
+        <div>
+          <h2>Great food.<br>Great moments.</h2>
+          <p class="contact-text">Tell us when you would like to visit. We will confirm your table by email.</p>
+        </div>
+
+        <form class="form" id="reservationForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" autocomplete="name" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="date">Date</label>
+              <input id="date" type="date" name="date">
+            </div>
+            <div class="field">
+              <label for="guests">Guests</label>
+              <select id="guests" name="guests">
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7 or more</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" placeholder="Occasion, dietary needs, anything we should know"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send request</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Keithston &amp; Partners. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </div>
+    <p class="footer-word" aria-hidden="true">Keithston</p>
+  </footer>
+
+  <div class="menu-preview" id="menuPreview" aria-hidden="true"><img alt="" /></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
